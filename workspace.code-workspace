@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "..\\Mbatia\\Flutter"
+		},
+		{
+			"name": "Alpaca",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Alpaca"
+	}
+}
