@@ -6,15 +6,28 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> contact web form</title>
         <link rel="stylesheet" href="form.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
       <div class="topnav">
         <h1><i>SWIFTLABS</i></h1>
-        <a href="active" href="#home">Home</a>
-        <a href="#form">Feedback Form</a>
-        <a href="#about">About</a>
+        <a href="active" href="Form.html">Home</a>
+        <a href="Form.html">Feedback Form</a>
+        <a href="Form.html">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
 
       </div>
+      <script>
+        /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+      </script>
       <div class="bg-img">
         <div class="container">
             <form action="action_page.php">
@@ -84,12 +97,33 @@
               </select>
           
               <label for="Feedback">Feedback</label>
-              <textarea id="Feedback" name="Feedback" placeholder="Write something.." style="height:200px"></textarea>
+              <textarea id="Feedback" name="Feedback" placeholder="Write something.." style="height:150px"></textarea>
           
               <input type="submit" value="Submit">
           
             </form>
           </div>
         </div>
+        <div class="about-section">
+          <h1>About Us page </h1>
+          <p>We are SWIFTLABS , bringing you technological innovations to solve your daily problems
+            such as the one above which is the is the SWIFTLABS forms to enable easier data collections of feedbacks.
+          </p>
+        </div>
+        <h2 style="text-align:center">Our Team</h2>
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <img src="img-2.jpg" alt="Mbatia" style="width:100%">
+          <div class="container">
+            <h2>Samuel Mbatia Gachana</h2>
+            <p class="title">CEO & Founder</p>
+            <p>I am a front end web developer as well as a Ui/UX designer. A machine learning enhusiast and Gis developer.</p>
+            <p>gachanasamuel@gmail.com</p>
+            <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
     </body>
 </html>
+
