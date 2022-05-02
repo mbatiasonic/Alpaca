@@ -28,13 +28,14 @@ input[type=text], select, textarea {
   /* Add a background color and some padding around the form */
   .container {
     border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
+    /*background-color: #f2f2f2;*/
+    padding: 50px;
+    position: absolute;
   }
   body, html{
     height: 100%;
   }
-  .bg{
+  .bg-img{
     /*The image used*/
     background-image: url("hero-bg.png");
 
