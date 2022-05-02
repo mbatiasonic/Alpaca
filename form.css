@@ -139,7 +139,7 @@ html{
 .title{
   color:grey;
 }
-.about-section button{
+.button{
    border: none;
    outline: 0;
    display: inline-block;
@@ -150,12 +150,13 @@ html{
    cursor: pointer;
    width: 100%;
 }
-.about-section button:hover{
+.button:hover{
   background-color: #555;
 }
 @media screen and (max-width: 650px) {
   .column{
     width: 100%;
     display: block;
+
   }
 }
